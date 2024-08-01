@@ -2,7 +2,7 @@ import { Router } from 'express'
 import { atualizarSenha, criarConta, deletarConta, logar } from '../controles/usuarios.js'
 
 
-export const rota = Router()
+export const rota = Router();
 
 // post get delete put/update
 
